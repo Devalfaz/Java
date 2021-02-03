@@ -2,19 +2,12 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// Java Program to find maximum in arr[] 
 class array 
 { 	
-	// Method to find maximum in arr[] 
 	static int largest(int[] arr) 
 	{ 
 		int i; 
-		
-		// Initialize maximum element 
 		int max = arr[0]; 
-		
-		// Traverse array elements from second and 
-		// compare every element with current max 
 		for (i = 1; i < arr.length; i++) 
 			if (arr[i] > max) 
 				max = arr[i]; 

@@ -1,5 +1,5 @@
 import java.util.*;
-public class java_11 {
+public class Anagram {
   public static void main(String[] args) 
   {
     Scanner input = new Scanner(System.in);

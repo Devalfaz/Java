@@ -35,7 +35,7 @@ public class matrix {
         for(int j=0;j<row;j++){    
         System.out.print(a[i][j]+" ");    
         }    
-        System.out.println();//new line    
+        System.out.println();   
         }    
         System.out.println("Printing Matrix After Transpose:");  
         for(int i=0;i<row;i++){    

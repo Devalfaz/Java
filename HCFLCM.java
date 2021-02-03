@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class HCFLCM {
 
-
-   public static void main(String args[]){
+   public static void main(String args[]) {
       int temp1, temp2, num1, num2, temp, hcf, lcm;
       Scanner scanner = new Scanner(System.in);
 
@@ -16,16 +15,16 @@ public class HCFLCM {
       temp1 = num1;
       temp2 = num2;
 
-      while(temp2 != 0){
+      while (temp2 != 0) {
          temp = temp2;
-         temp2 = temp1%temp2;
+         temp2 = temp1 % temp2;
          temp1 = temp;
       }
 
       hcf = temp1;
-      lcm = (num1*num2)/hcf;
+      lcm = (num1 * num2) / hcf;
 
-      System.out.println("HCF of input numbers: "+hcf);
-      System.out.println("LCM of input numbers: "+lcm);
+      System.out.println("HCF of input numbers: " + hcf);
+      System.out.println("LCM of input numbers: " + lcm);
    }
 }

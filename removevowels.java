@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class java_12 {
+public class removevowels {
     public static void main(String[] args)
      {
         Scanner input = new Scanner(System.in);
