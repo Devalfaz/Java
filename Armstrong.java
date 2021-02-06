@@ -13,7 +13,6 @@ public class Armstrong
 	end = scanner.nextInt();
 	scanner.close();
 
-	//generate Armstrong numbers between start and end
 	for(i=start+1; i<end; i++)
 	{
 	   temp = i;
@@ -34,7 +33,6 @@ public class Armstrong
 		   counter++;
 	   }
 	}
-	// if no Armstrong number is found
 	if(counter == 0)
 	{
 	   System.out.print("There is no Armstrong number Between "+start+" and "+end);

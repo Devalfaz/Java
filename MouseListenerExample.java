@@ -1,9 +1,7 @@
 import java.awt.*;  
 import java.awt.event.*;  
 public class MouseListenerExample extends Frame implements MouseListener{  
-    /**
-     *
-     */
+
     private static final long serialVersionUID = 1L;
     Label l;
 

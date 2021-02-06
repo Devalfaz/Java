@@ -25,7 +25,7 @@ class Employee {
     }
 }
 
-public class employee extends Employee {
+public class emp extends Employee {
     public static void main(String args[])
 
     {

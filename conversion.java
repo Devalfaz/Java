@@ -8,7 +8,6 @@ class conversion
       int num =input.nextInt();
       input.close();
         
-      // calling method toHexString()
       String str1 = Integer.toHexString(num);
       System.out.println("Method 1: Decimal to hexadecimal: "+str1);
       String str2 = Integer.toBinaryString(num);

@@ -17,7 +17,7 @@ public class HCFLCM {
 
       while (temp2 != 0) {
          temp = temp2;
-         temp2 = temp1 % temp2;
+         temp2 = temp2 % temp1;
          temp1 = temp;
       }
 
